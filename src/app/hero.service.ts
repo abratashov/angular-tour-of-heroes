@@ -16,7 +16,7 @@ const httpOptions = {
 })
 
 export class HeroService {
-  private heroesUrl = 'api/heroes';
+  readonly heroesUrl = 'api/heroes';
 
   constructor(
     private http: HttpClient,
